@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo</title>
+    <script src="index.jsx"></script>
+    <style>
+      .navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(15% - 20px); 
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+.card-link {
+    display: block;
+    color: #333;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+    </style>
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="Home">Home</a>
+    <a href="Sobre">Sobre</a>
+    <a href="Detalhes">Detalhes</a>
+</div>
+
+<h2>Melhores Jogadores</h2>
+<table>
+    <tr>
+        <th>MVP</th>
+        <th>Idade:</th>
+        <th>Seleção:</th>
+    </tr>
+    <tr>
+        <td>1. Neymar Jr.</td>
+        <td>32 anos</td>
+        <td>Brasil</td>
+    </tr>
+    <tr>
+      <td>2. Cristiano Ronaldo</td>
+      <td>39 anos</td>
+      <td>Portugal</td>
+  </tr>
+  <tr>
+    <td>3. Lionel Messi</td>
+    <td>36 anos</td>
+    <td>Argentina</td>
+</tr>
+<tr>
+  <td>4. Erling Haaland</td>
+  <td>23 anos</td>
+  <td>Noruega</td>
+</tr>
+</table>
+
+<h2>Jogadores</h2>
+<div class="card">
+    <a href="detalhes.html" class="card-link">
+        <img src="https://clipart.info/images/ccovers/1503685021Neymar-JR-PNG-Face.png" alt="Imagem do Card" style="width:90%">
+        <div class="container">
+            <h4><b>Neymar Jr.</b></h4>
+            <p>MVP</p>
+        </div>
+    </a>
+</div>
+
+<div class="card">
+  <a href="detalhes.html" class="card-link">
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRQCofu0UtuyxSzTgozeorI-HO_EKt2LXJYUBIPr4dvj9oEMOR" alt="Imagem do Card" style="width:83%">
+      <div class="container">
+          <h4><b>Lionel Messi</b></h4>
+          <p>Segundo Colocado</p>
+      </div>
+  </a>
+</div>
+
+<div class="card">
+  <a href="detalhes.html" class="card-link">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDS-NN32oWj6jIoj_Yo-XDbjXAgkh7fLKNsrdYhuxxQgdCkpxn" alt="Imagem do Card" style="width:83%">
+      <div class="container">
+          <h4><b>Cristiano Ronaldo</b></h4>
+          <p>Terceiro Colocado</p>
+      </div>
+  </a>
+</div>
+
+<div class="card">
+  <a href="detalhes.html" class="card-link">
+      <img src="https://www.mancity.com/meta/media/jybffupz/erling-haaland.png" alt="Imagem do Card" style="width:100%">
+      <div class="container">
+          <h4><b>Erling Haaland</b></h4>
+          <p>Quarto Colocado</p>
+      </div>
+  </a>
+</div>
+</body>
+</html>
